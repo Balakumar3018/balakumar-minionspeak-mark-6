@@ -1,0 +1,60 @@
+        :root{
+            --primaru-color:#F2C94C;
+        }
+        body{
+            margin: 0px;
+            box-sizing: border-box;
+            font-family: cursive;
+        }
+        #nav{
+            text-align: center;
+            font-size:xx-large;
+            background-color: var(--primaru-color);
+            height: 60px;
+            width: 100%;
+            padding-top: 2rem;
+        }
+        main{
+            margin: auto;
+            padding: 1rem;
+            max-width: 600px;
+        }
+        .text-area{
+            width: 100%;
+            height: 22vh;
+            box-sizing: border-box;
+            border: 0.1rem solid;
+            margin: 10px 0px;
+            
+        }
+        #button-to-translate{
+            background-color: var(--primaru-color);
+            height: 55px;
+            width: 220px;
+            border-radius: 0.2rem;
+            font-size: 17px;
+            font-family: cursive;
+        }
+        #output-text-area{
+            width: 600px;
+            overflow:scroll;
+            height: 15vh;
+            box-sizing: border-box;;
+        }
+        .heading-text{
+            margin: 20px 2px 0px 0px;
+        }
+        footer {
+            text-align:center;
+            background-color: var(--primaru-color);
+            height: 70px;
+            padding: 2rem;
+            bottom: 0%;
+            position: fixed;
+            width: 100%;
+
+        }
+        footer p{
+            margin: auto;
+            max-width: 550px;
+        }
